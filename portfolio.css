@@ -1,0 +1,128 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #667eea, #764ba2, #ff6f61);
+    color: #333;
+}
+
+/* Header */
+header {
+    background:transparent;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navbar */
+nav {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 14px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+nav a {
+    color: white;
+    margin: 0 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #ffdd57;
+}
+
+/* Section Cards */
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Headings with gradient underline */
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    position: relative;
+}
+h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(135deg, #ff6f61, #ffd200);
+    margin-top: 6px;
+    border-radius: 2px;
+}
+
+/* Skills */
+#skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+#skills ul li {
+    margin: 10px 0;
+    padding: 8px 12px;
+    border-left: 5px solid #667eea;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Projects */
+.project {
+    border: 1px solid #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    background: #fafafa;
+}
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+/* Back to top button */
+#topBtn {
+    display: none;
+    position:fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background:black;
+    color: white;
+    cursor: pointer;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+#topBtn:hover {
+    background: #6e930f;
+}
